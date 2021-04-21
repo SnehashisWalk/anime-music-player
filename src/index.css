@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow: auto;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

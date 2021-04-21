@@ -1,0 +1,26 @@
+.nav__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__header__left {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+}
+.nav__header__right {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.player__nav__btn {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.player__nav__btn:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
